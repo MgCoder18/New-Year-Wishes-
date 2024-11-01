@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Wishes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="fireworks-container">
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="bgVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div id="content-box">
+    <h1>HAPPY NEW YEAR</h1>
+    <input type="text" id="userInput" placeholder="Enter Your Name">
+    <button onclick="handleInput()">Submit</button>
+    <div id="output"></div>
+    <div id="countdown"></div>
+</div>
+
+<audio id="backgroundMusic" loop>
+    <source id="songSource" src="krishna3.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
